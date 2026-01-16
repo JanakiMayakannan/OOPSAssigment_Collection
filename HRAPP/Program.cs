@@ -7,6 +7,9 @@ namespace HRAPP
     {
         static void Main(string[] args)
         {
+            #region GIT
+            Console.WriteLine("Changes done from git repository");
+            #endregion
             try
             {
                 Console.WriteLine("---- Confirm Employee (Valid) ----");
